@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace mcdonaldsApi.Mod;
+namespace McDonaldsAPI.Mod;
 
 public partial class McDataBaseContext : DbContext
 {

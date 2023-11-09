@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace mcdonaldsApi.Mod;
+namespace McDonaldsAPI.Mod;
 
 public partial class ClientOrder
 {

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace McDonaldsAPI.Services;
 
-using Model;
+using Mod;
 
 public class OrderRepository : IOrderRepository
 {
@@ -45,12 +45,12 @@ public class OrderRepository : IOrderRepository
 
     public Task<List<Product>> GetMenu(int orderId)
     {
-
+        throw new NotImplementedException();
     }
 
     public Task<List<Product>> GetOrderItems(int orderId)
     {
-
+        throw new NotImplementedException();
     }
 
     public async Task AddItem(int orderId, int productId)
@@ -78,17 +78,17 @@ public class OrderRepository : IOrderRepository
 
     public Task RemoveItem(int orderId, int productId)
     {
-
+        throw new NotImplementedException();
     }
 
     public Task FinishOrder(int orderId)
     {
-
+        throw new NotImplementedException();
     }
 
     public Task DeliveryOrder(int orderId)
     {
-
+        throw new NotImplementedException();
     }
 
     private async Task<ClientOrder> getOrder(int orderId)
